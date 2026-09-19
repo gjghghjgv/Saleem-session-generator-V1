@@ -31,7 +31,7 @@ async function generateShortSession(credsPath) {
         // Generate session ID with prefix
         const y = new Date().getFullYear();
         const r = Math.random().toString(36).substring(2, 6).toUpperCase();
-        const sessionId = `KIRA-MD~`;
+        const sessionId = `SALEEM~`;
         
         // Return both session ID and encoded data
         return {
@@ -121,11 +121,11 @@ const fakeVCardQuoted = {
   },
   message: {
     contactMessage: {
-      displayName: "© KIRA-MD",
+      displayName: "© Saleem Hacker",
       vcard: `BEGIN:VCARD
-VERSION:3.0
-FN:© KIRA-MD
-ORG:ArslanMD Official;
+VERSION:1.0
+FN:© Saleem Hacker
+ORG:Saleem Hacker;
 TEL;type=CELL;type=VOICE;waid=13135550002:+13135550002
 END:VCARD`
     }
@@ -134,15 +134,15 @@ END:VCARD`
 
 // ---- Caption (alive.js style bot details) ----
 const caption = `
-╭━〔 *ᴀʀꜱʟᴀɴ-xᴍᴅ* 〕━··๏
+╭━〔 *ꜱᴀʟᴇᴇᴍ ʜᴀᴄᴋᴇʀ* 〕━··๏
 ┃★╭──────────────
-┃★│ 👑 Owner : *ArslanMD Official*
+┃★│ 👑 Owner : *Saleem Hacker*
 ┃★│ 🤖 Baileys : *Multi Device*
 ┃★│ 💻 Type : *NodeJs*
 ┃★│ 🚀 Platform : *Render*
 ┃★│ ⚙️ Mode : *Public*
 ┃★│ 🔣 Prefix : *[ . ]*
-┃★│ 🏷️ Version : *8.0.0*
+┃★│ 🏷️ Version : *1.0.0*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━┈⊷`;
 
@@ -158,7 +158,7 @@ await sock.sendMessage(
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: "120363348739987203@newsletter",
-        newsletterName: "❀༒★[ᴀʀꜱʟᴀɴ-ᴍᴅ]★༒❀",
+        newsletterName: "❀༒★[ꜱᴀʟᴇᴇᴍ ʜᴀᴄᴋᴇʀ]★༒❀",
         serverMessageId: 143
       }
     }
@@ -240,4 +240,4 @@ process.on("unhandledRejection", (err) => {
 
 export default router;
 
-//coded by ArslanMD Official 🇵🇰 
+//coded by Saleem Hacker 🇵🇰 
